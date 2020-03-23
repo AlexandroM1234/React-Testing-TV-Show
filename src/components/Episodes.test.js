@@ -6,7 +6,7 @@ test("renders the episodes without anything going through props", () => {
   render(<Episodes episodes={[]} />);
 });
 
-const dummyData = [
+export const dummyData = [
   {
     id: 553946,
     url:
